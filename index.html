@@ -4,34 +4,185 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Garden Games - Support</title>
+<meta name="description" content="Support and contact information for games published by Garden Games.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
-body { font-family: -apple-system, system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
-h1 { margin-bottom: 4px; }
-h2 { margin-top: 32px; font-size: 20px; }
-a { color: #0a66c2; }
+  :root {
+    --ink: #0C1410;
+    --ink-raised: #131F19;
+    --line: #22352B;
+    --sage: #A9BDAE;
+    --sage-dim: #7C9384;
+    --cream: #EDF2EC;
+    --amber: #E3A94B;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--sage);
+    font-family: "Inter", -apple-system, system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 72px 24px 96px;
+  }
+
+  .mark {
+    font-family: "Fraunces", Georgia, serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: clamp(38px, 9vw, 56px);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    color: var(--cream);
+    margin: 0;
+  }
+
+  .mark span { color: var(--amber); }
+
+  .tagline {
+    margin: 14px 0 0;
+    color: var(--sage-dim);
+    max-width: 42ch;
+  }
+
+  h2 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: -0.01em;
+    color: var(--cream);
+    margin: 0 0 16px;
+  }
+
+  section { margin-top: 56px; }
+
+  .contact {
+    margin-top: 44px;
+    background: var(--ink-raised);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 26px 26px 28px;
+  }
+
+  .contact p { margin: 0 0 18px; }
+
+  .mail {
+    display: inline-block;
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 20px;
+    color: var(--amber);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(227, 169, 75, 0.35);
+    padding-bottom: 2px;
+    word-break: break-all;
+  }
+
+  .mail:hover { border-bottom-color: var(--amber); }
+
+  .games { list-style: none; margin: 0; padding: 0; }
+
+  .games li {
+    padding: 14px 0;
+    border-top: 1px solid var(--line);
+    color: var(--cream);
+  }
+
+  .games li:last-child { border-bottom: 1px solid var(--line); }
+
+  .games span {
+    display: block;
+    color: var(--sage-dim);
+    font-size: 14px;
+  }
+
+  dl { margin: 0; }
+
+  dt {
+    color: var(--cream);
+    font-weight: 500;
+    margin-top: 26px;
+  }
+
+  dt:first-of-type { margin-top: 0; }
+
+  dd { margin: 6px 0 0; }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 26px;
+    border-top: 1px solid var(--line);
+    font-size: 14px;
+    color: var(--sage-dim);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    justify-content: space-between;
+  }
+
+  footer a { color: var(--sage); }
+
+  a:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
 </style>
 </head>
 <body>
-<h1>Garden Games</h1>
-<p>Mobile games by Garden Games.</p>
-<h2>Support</h2>
-<p>Need help or have a question about one of our games? Email us and we will get back to you within 2 business days.</p>
-<p><strong>Email:</strong> <a href="mailto:bilgehan.bahce@outlook.com">bilgehan.bahce@outlook.com</a></p>
-<h2>Our Games</h2>
-<ul>
-<li>Friends &amp; Lovers: Couples Quiz</li>
-<li>Kick Tac Toe - Football</li>
-</ul>
-<h2>Frequently Asked Questions</h2>
-<p><strong>My purchase did not go through. What should I do?</strong><br>
-Restore purchases from the settings screen inside the app. If the problem continues, email us with your purchase receipt.</p>
-<p><strong>How do I remove ads?</strong><br>
-Ad removal is available as an in-app purchase in the shop section of the game.</p>
-<p><strong>The app crashes or does not open.</strong><br>
-Make sure you are on the latest version from the App Store, then restart your device. If it persists, email us with your device model and iOS version.</p>
-<p><strong>How do I report a bug or suggest a feature?</strong><br>
-Send us an email. We read every message.</p>
-<h2>Privacy Policy</h2>
-<p><a href="https://sites.google.com/view/privacypolicygardengames/ana-sayfa">View our privacy policy</a></p>
+<div class="wrap">
+
+  <header>
+    <h1 class="mark">Garden<br>Games<span>.</span></h1>
+    <p class="tagline">A small studio making mobile games for people who play together.</p>
+  </header>
+
+  <div class="contact">
+    <p>Need help with one of our games? Write to us and we will reply within two business days.</p>
+    <a class="mail" href="mailto:bilgehan.bahce@outlook.com">bilgehan.bahce@outlook.com</a>
+  </div>
+
+  <section>
+    <h2>Our games</h2>
+    <ul class="games">
+      <li>Friends &amp; Lovers: Couples Quiz<span>A question game for two</span></li>
+      <li>Kick Tac Toe<span>Football trivia on a grid</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Common questions</h2>
+    <dl>
+      <dt>My purchase did not go through</dt>
+      <dd>Open the settings screen inside the game and tap Restore Purchases. If nothing comes back, email us with the receipt you got from Apple or Google.</dd>
+
+      <dt>How do I remove ads?</dt>
+      <dd>Ad removal is a one time purchase in the shop section of each game.</dd>
+
+      <dt>The game crashes or will not open</dt>
+      <dd>Update to the latest version, then restart your device. If it keeps happening, email us with your device model and system version so we can reproduce it.</dd>
+
+      <dt>I found a bug, or I have an idea</dt>
+      <dd>Send it to the address above. Every message is read by the person who made the game.</dd>
+    </dl>
+  </section>
+
+  <footer>
+    <span>Garden Games</span>
+    <a href="https://sites.google.com/view/privacypolicygardengames/ana-sayfa">Privacy policy</a>
+  </footer>
+
+</div>
 </body>
 </html>
