@@ -5,3 +5,5 @@ unityads.unity3d.com, 800366786, DIRECT, 96cabb5fbdf38745
 unityads.unity3d.com, 800366777, DIRECT, 96cabb5fbdf38745
 unityads.unity3d.com, 800366772, DIRECT, 96cabb5fbdf38745
 vungle.com, 6ab72f918770bfafcf0e5d4b, DIRECT, c107d686becd2d77
+unityads.unity3d.com, 800431002, DIRECT, 96cabb5fbdf38745
+unityads.unity3d.com, 800431003, DIRECT, 96cabb5fbdf38745
